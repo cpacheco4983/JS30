@@ -1,0 +1,18 @@
+Day 1
+- document.querySelector();
+- document.querySelectorAll();
+- Audio functions eg play, pause, etc
+- Each key has a keyCode eg A = 65
+- Add/remove classes with Element.classList.add()/remove()
+
+Day 2
+- Inline styles with Element.style.PROPERTY
+- Elements transform at center by default
+- Setting Element.style.PROPERTY = '' resets styling
+
+Day 3
+- CSS variables are declared '--VAR_NAME: VALUE'
+- CSS variables are used CSS_PROPERTY: var(--VAR_NAME)
+- querySelector returns a node list NOT an array. Node list has much fewer methods available
+- object.dataset returns an object containing all the data attributes on the object it was called on
+- document.documentElement returns the root element of the documentElement
