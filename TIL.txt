@@ -1,9 +1,10 @@
 Day 1
-- document.querySelector();
-- document.querySelectorAll();
+- document.querySelector() return first element that matches the CSS selector used as an arg
+- document.querySelectorAll() returns all elements that match the CSS selector used
 - Audio functions eg play, pause, etc
 - Each key has a keyCode eg A = 65
 - Add/remove classes with Element.classList.add()/remove()
+- prototype in console shows properties and methods available to parent object eg Array.prototype has filter, map, reduce, etc
 
 Day 2
 - Inline styles with Element.style.PROPERTY
@@ -13,6 +14,18 @@ Day 2
 Day 3
 - CSS variables are declared '--VAR_NAME: VALUE'
 - CSS variables are used CSS_PROPERTY: var(--VAR_NAME)
-- querySelector returns a node list NOT an array. Node list has much fewer methods available
+- querySelector returns a node list NOT an array. Node list has much fewer methods available(viewable in prototype)
 - object.dataset returns an object containing all the data attributes on the object it was called on
 - document.documentElement returns the root element of the documentElement
+
+Day 4
+- ARRAY.filter() takes a function that takes in each item in the array and checks it against a condition to see if it should stay or be filtered out
+- filter only needs a boolean value to know whether a value should remain or be filtered out.
+- console.table() returns formatted table showing array contents
+- ARRAY.map() takes an array of size n, performs whatever function you want to each value and return an array of size n
+- ARRAY.sort() sorts an array based on a comparison set by user. If no sorting function is provided the array is sorted on unicode values
+Has 2 params which correspond to subsequent elements in the array.
+- ARRAY.reduce() keeps a running total for each element in an array. You choose what value to add and it sums them and returns the total.
+You can specify a starting value
+- You can destruct a split string to skip having to assign the parts separately eg const [part1, part2] = string.split(',')
+- ARRAY.reduce() can be used to tally totals for different keys in an object. It does not have to return a single number.
