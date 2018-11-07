@@ -29,3 +29,13 @@ Has 2 params which correspond to subsequent elements in the array.
 You can specify a starting value
 - You can destruct a split string to skip having to assign the parts separately eg const [part1, part2] = string.split(',')
 - ARRAY.reduce() can be used to tally totals for different keys in an object. It does not have to return a single number.
+
+Day 5
+- Set display: flex to make container a flex container
+- set child of flex container to flex: 1 to make those take up equal amounts of space. 1:1 ratio for each of those children
+- 'justify-content' aligns content on main axis
+- 'align-items' aligns content on the axis perpendicular to the main axis
+- 'flex-direction' specifies direction of the container. defaults to grow
+- 'flex' is shorthand for flex-grow(proportion of extra space allotted) | flex-shrink(amount to shrink if too little space) | flex-basis(initial size before space is allotted)
+- Adding '()' to a function name in 'addEventListener' would cause the function to run on page load. We use function name without '()' to pass it a reference
+so it knows which function to use on event action
