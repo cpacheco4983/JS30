@@ -39,3 +39,18 @@ Day 5
 - 'flex' is shorthand for flex-grow(proportion of extra space allotted) | flex-shrink(amount to shrink if too little space) | flex-basis(initial size before space is allotted)
 - Adding '()' to a function name in 'addEventListener' would cause the function to run on page load. We use function name without '()' to pass it a reference
 so it knows which function to use on event action
+
+Day 6
+- fetch() gets resources from provided path and returns a promise.
+- To use data retrieved using fetch() you have to use .then() and you can manipulate it within the .then(). Pass it outside to use it outside of .then()
+- You can use a regex on a variable with new RegExp(VAR_NAME, RULES)
+- You can change a returned array to a string by adding .join('')
+
+Day 7
+- ARRAY.some() takes in a function to check that at least one item fits the criteria
+- ARRAY.every() takes in a function and checks that all items in the array fit criteria
+- Putting a logged variable in '{}' you can see the name and value (cause its an object...kinda convenient)
+- ARRAY.find() is like filter but only returns the first match
+- ARRAY.findIndex() returns index of first matched item
+- ARRAY.splice() takes 1-3 args and adds/removes items from array. Start index, num items to delete(opt), items to add(can be >= 1)(opt)
+- ARRAY.slice() has 1-2 args. a start index (inclusive) and end index(exclusive). If no end index is specified it goes to end of array
