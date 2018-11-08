@@ -25,6 +25,7 @@
 
     function findMatches(wordToMatch, cities) {
       return cities.filter(place => {
+        // 'gi' is for global and insensitive(case insensitive)
         const regex = new RegExp(wordToMatch, 'gi');
         return place.city.match(regex) || place.state.match(regex);
       });
