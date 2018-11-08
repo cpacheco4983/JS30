@@ -39,3 +39,9 @@ Day 5
 - 'flex' is shorthand for flex-grow(proportion of extra space allotted) | flex-shrink(amount to shrink if too little space) | flex-basis(initial size before space is allotted)
 - Adding '()' to a function name in 'addEventListener' would cause the function to run on page load. We use function name without '()' to pass it a reference
 so it knows which function to use on event action
+
+Day 6
+- fetch() gets resources from provided path and returns a promise.
+- To use data retrieved using fetch() you have to use .then() and you can manipulate it within the .then(). Pass it outside to use it outside of .then()
+- You can use a regex on a variable with new RegExp(VAR_NAME, RULES)
+- You can change a returned array to a string by adding .join('')
