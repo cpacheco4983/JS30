@@ -54,3 +54,7 @@ Day 7
 - ARRAY.findIndex() returns index of first matched item
 - ARRAY.splice() takes 1-3 args and adds/removes items from array. Start index, num items to delete(opt), items to add(can be >= 1)(opt)
 - ARRAY.slice() has 1-2 args. a start index (inclusive) and end index(exclusive). If no end index is specified it goes to end of array
+
+Day 8
+- To draw on the canvas you get the context object that provides properties and methods for you to render graphics on the canvas
+- We draw on context no the canvas
