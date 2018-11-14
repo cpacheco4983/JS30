@@ -58,3 +58,14 @@ Day 7
 Day 8
 - To draw on the canvas you get the context object that provides properties and methods for you to render graphics on the canvas
 - We draw on context no the canvas
+
+Day 9
+- If there is JS changing an element on the page and you want to see what it is, you can inspect the element being changed, right click(RC) and click 'break on->attributes modification'
+- You can interpolate variables into your log messages or just use ES6 backticks and use var directly
+- Remember these 3 log types .info(), .warn(), .error() and .table() from previous videos
+- console.assert() only shows up if the assertion fails ie assertion evaluates to false. this can be any conditional
+- console.clear() clears your console...can be used to mess with other devs I guess?
+- Logging an element shows the outerHTML of the element. console.dir() provides a dropdown with all the attributes and methods available to the element
+- console.group()/groupEnd() allows you to name a group of logs to make finding them easy. You can use groupCollapsed() so they appear collapsed initially
+- console.count() will tally the number of times a log has appeared
+-
