@@ -68,4 +68,8 @@ Day 9
 - Logging an element shows the outerHTML of the element. console.dir() provides a dropdown with all the attributes and methods available to the element
 - console.group()/groupEnd() allows you to name a group of logs to make finding them easy. You can use groupCollapsed() so they appear collapsed initially
 - console.count() will tally the number of times a log has appeared
--
+
+Day 10
+- REMINDER: If you create an array of objects from a nodelist, its passed by reference and objects changed through the array changes the nodelist objects as well
+(you know...cause its by reference...duh)
+- event.shiftKey tells you if the shift key is being pressed during click 
