@@ -72,4 +72,7 @@ Day 9
 Day 10
 - REMINDER: If you create an array of objects from a nodelist, its passed by reference and objects changed through the array changes the nodelist objects as well
 (you know...cause its by reference...duh)
-- event.shiftKey tells you if the shift key is being pressed during click 
+- event.shiftKey tells you if the shift key is being pressed during click
+
+Day 11
+- To update video time just set the currentTime. THERE IS NO FF OR RWD ATTRIBUTES 
