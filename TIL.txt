@@ -75,4 +75,7 @@ Day 10
 - event.shiftKey tells you if the shift key is being pressed during click
 
 Day 11
-- To update video time just set the currentTime. THERE IS NO FF OR RWD ATTRIBUTES 
+- To update video time just set the currentTime. THERE IS NO FF OR RWD ATTRIBUTES
+
+Day 12
+- Using negative value for first splice arg starts the count from the end of the array
