@@ -37,10 +37,10 @@ function scrub(e) {
   video.currentTime = scrubTime;
 }
 
-// function toggleFullscreen() {
-//   console.log('btnclick');
-//   player.webkitRequestFullscreen();
-// }
+function toggleFullscreen() {
+  // Supports limited browsers. Dont care enough to add non-chrome support
+  document.webkitFullscreenElement ? document.webkitExitFullscreen() : player.webkitRequestFullscreen();
+}
 
 // Event LIsteners
 video.addEventListener('click', togglePlay);
@@ -62,4 +62,4 @@ progressBar.addEventListener('mousemove', (e) => mousedown && scrub(e));
 progressBar.addEventListener('mousedown', () => mousedown = true);
 progressBar.addEventListener('mouseup', () => mousedown = false);
 
-// fullscreenBtn.addEventListener('click', toggleFullscreen);
+fullscreenBtn.addEventListener('click', toggleFullscreen);
