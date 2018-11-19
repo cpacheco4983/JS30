@@ -85,3 +85,12 @@ Day 13
 - window.scrollY: number of px the document is scrolled vertically
 - el.offsetTop gives you  the distance of the current element relative to the top of the offsetParent node
 - window.innerHeight: Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar
+
+Day 14
+- primitive values: numbers, strings, booleans are pass by value. Arrays and objects are pass by reference
+- To create copies of arrays you can use ARRAY.slice() with no args, [].concat(), [...spread], and Array.from()
+- To copy an object use Object.assign({}, objectBeingCopied, {properties being changed or added in new object})
+- Object assign is a shallow copy meaning it only copies one level deep. If you have nested properties, they are still referencing the copied array
+so any changes to those will alter the original array. Have to look up cloneDeep fn online
+- You can deep clone using JSON.parse(JSON.stringify(OBJ)). Unknown performance so not recommended but it works by turning object to a string then returning
+it to an object which gets rid of the references to original object
