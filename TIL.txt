@@ -94,3 +94,8 @@ Day 14
 so any changes to those will alter the original array. Have to look up cloneDeep fn online
 - You can deep clone using JSON.parse(JSON.stringify(OBJ)). Unknown performance so not recommended but it works by turning object to a string then returning
 it to an object which gets rid of the references to original object
+
+Day 15
+- Input of type 'submit' causes page to reload by default
+- localStorage API has setItem(), getItem(), removeItem() and clear()
+- Event delegation. Parent element can give child elements, current or future, an event listener.

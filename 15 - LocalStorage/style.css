@@ -12,7 +12,7 @@
     }
 
     *, *:before, *:after {
-      box-sizing: inherit; 
+      box-sizing: inherit;
     }
 
     svg {
@@ -77,4 +77,8 @@
       padding: 10px;
       outline: 0;
       border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .all-items input {
+      margin-top: 10px;
     }
