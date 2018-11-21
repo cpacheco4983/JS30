@@ -99,3 +99,9 @@ Day 15
 - Input of type 'submit' causes page to reload by default
 - localStorage API has setItem(), getItem(), removeItem() and clear()
 - Event delegation. Parent element can give child elements, current or future, an event listener.
+
+Day 16
+- Adding contenteditable to a tag allows the user to edit the content
+- The mousemove event will have its attribute values set for the element its on. If set on el 'div', values will reset when moved over
+any children elements
+- offsetTop and offsetLeft are attributes of HTML element
