@@ -105,3 +105,6 @@ Day 16
 - The mousemove event will have its attribute values set for the element its on. If set on el 'div', values will reset when moved over
 any children elements
 - offsetTop and offsetLeft are attributes of HTML element
+
+Day 17
+- STRING.replace() will replace ALL instances of the substring not just when their a standalone word in the string
