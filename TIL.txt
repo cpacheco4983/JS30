@@ -108,3 +108,6 @@ any children elements
 
 Day 17
 - STRING.replace() will replace ALL instances of the substring not just when their a standalone word in the string
+
+Day 18
+- Math.floor(NUMBER) rounds down to lowest whole number
