@@ -99,3 +99,19 @@ Day 15
 - Input of type 'submit' causes page to reload by default
 - localStorage API has setItem(), getItem(), removeItem() and clear()
 - Event delegation. Parent element can give child elements, current or future, an event listener.
+
+Day 16
+- Adding contenteditable to a tag allows the user to edit the content
+- The mousemove event will have its attribute values set for the element its on. If set on el 'div', values will reset when moved over
+any children elements
+- offsetTop and offsetLeft are attributes of HTML element
+
+Day 17
+- STRING.replace() will replace ALL instances of the substring not just when their a standalone word in the string
+
+Day 18
+- Math.floor(NUMBER) rounds down to lowest whole number
+
+Day 19
+- Use navigator.mediaDevices.getUserMedia({OBJ}) to grab video/audio. It returns a promise
+- CANVASCTX.getImageData() returns an object with data: array of pixel RGB values, height, and width
