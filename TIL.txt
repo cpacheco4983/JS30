@@ -111,3 +111,7 @@ Day 17
 
 Day 18
 - Math.floor(NUMBER) rounds down to lowest whole number
+
+Day 19
+- Use navigator.mediaDevices.getUserMedia({OBJ}) to grab video/audio. It returns a promise
+- CANVASCTX.getImageData() returns an object with data: array of pixel RGB values, height, and width
