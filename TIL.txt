@@ -115,3 +115,12 @@ Day 18
 Day 19
 - Use navigator.mediaDevices.getUserMedia({OBJ}) to grab video/audio. It returns a promise
 - CANVASCTX.getImageData() returns an object with data: array of pixel RGB values, height, and width
+
+Day 20
+- window.SpeechRecognition is a global var in the browser. In chrome its window.webkitSpeechRecognition
+- For fun you can check the transcripts for specific text and run a function to do something when certain works or phrases are said.
+Make sure to debounce it or the function will be called a lot of times for no reason
+
+IDEAS FOR MORE PRACTICE
+Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
+Throw in day 13 for debounce
