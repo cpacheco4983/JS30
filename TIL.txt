@@ -129,6 +129,10 @@ returned frequently
 Day 22
 - EL.getBoundingClientRect() returns info about the element: width, height, x, y, top, right, bottom, left
 
+Day 23
+- SpeechSynthesisUtterance is part of the web speech API included in most browsers(!IE || OperaMobile)
+- speechSynthesis is the object that provides the voice while SpeechSynthesisUtterance is what the synth should say
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
