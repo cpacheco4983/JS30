@@ -126,6 +126,9 @@ Day 21
 returned frequently
 - NUMBER.toFixed(n) rounds to however many numbers after the decimal
 
+Day 22
+- EL.getBoundingClientRect() returns info about the element: width, height, x, y, top, right, bottom, left
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
-Throw in day 13 for debounce
+Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
