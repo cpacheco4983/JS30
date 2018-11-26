@@ -121,6 +121,11 @@ Day 20
 - For fun you can check the transcripts for specific text and run a function to do something when certain works or phrases are said.
 Make sure to debounce it or the function will be called a lot of times for no reason
 
+Day 21
+- navigator.geolocation.watchPostion() allows you to access user location details such as lat, long, speed, heading, etc. These results are
+returned frequently
+- NUMBER.toFixed(n) rounds to however many numbers after the decimal
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce
