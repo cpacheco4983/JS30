@@ -133,6 +133,11 @@ Day 23
 - SpeechSynthesisUtterance is part of the web speech API included in most browsers(!IE || OperaMobile)
 - speechSynthesis is the object that provides the voice while SpeechSynthesisUtterance is what the synth should say
 
+Day 24
+- When you fix an element it no longer takes space in the document. This causes a reflow of page
+- Good idea to add a class to the body for a fixed nav instead of to the nav element directly. This allows other children element to be 
+styled accordingly instead of having to add the class to a bunch of different elements. Good idea for design changes that affect the whole page
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
