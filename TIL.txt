@@ -157,6 +157,10 @@ some wierd design issues
 Day 27
 - e.pageX gives you the x coord of where you clicked on the page
 
+Day 28
+- Recap on older lessons.
+- Look into trying to pass 'this' through event listener to nested function. Could not figure it out.
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
