@@ -27,7 +27,6 @@
       // Couldnt figure out how to pass 'this' from handleEVENT to calculatePlayback fn.
       // Switched 'this' reference to speed.
       function calculatePlayback(e) {
-        if(!isDown) return;
         const y = e.pageY - speed.offsetTop,
               percent = y / speed.offsetHeight,
               height = Math.round(percent * 100) + '%',
