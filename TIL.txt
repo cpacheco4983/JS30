@@ -154,6 +154,9 @@ Good example on https://stackoverflow.com/questions/34361379/arrow-function-vs-f
 some wierd design issues
 - The transition property allows you to have CSS changes happen over a set time instead of immediately
 
+Day 27
+- e.pageX gives you the x coord of where you clicked on the page
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
