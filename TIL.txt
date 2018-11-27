@@ -126,6 +126,27 @@ Day 21
 returned frequently
 - NUMBER.toFixed(n) rounds to however many numbers after the decimal
 
+Day 22
+- EL.getBoundingClientRect() returns info about the element: width, height, x, y, top, right, bottom, left
+
+Day 23
+- SpeechSynthesisUtterance is part of the web speech API included in most browsers(!IE || OperaMobile)
+- speechSynthesis is the object that provides the voice while SpeechSynthesisUtterance is what the synth should say
+
+Day 24
+- When you fix an element it no longer takes space in the document. This causes a reflow of page
+- Good idea to add a class to the body for a fixed nav instead of to the nav element directly. This allows other children element to be
+styled accordingly instead of having to add the class to a bunch of different elements. Good idea for design changes that affect the whole page
+
+Day 25
+- If children elements are nested on top of each other, events such as 'click' will bubble through them meaning the click will propagate through
+all the elements and trigger any 'click' handlers set on them as well
+- When you do (event) in modern browsers, it does a capture which ripples top down meaning it starts at the parent until it reaches the child the event
+was triggered on and then it bubbles up and triggers the event actions you set.
+- addEventListener has a 3rd optional arg 'options'(object). capture: bool will make any listeners trigger on capture instead of when bubbling so
+listeners will trigger from top to bottom instead of bottom to top. once: bool will unbind a listener after it has been triggered once
+- EVENT.stopPropagation() stops the event from bubbling
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
-Throw in day 13 for debounce
+Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
