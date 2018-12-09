@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Video Speed Scrubber</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <video class="flex" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" loop controls></video>
+      <div class="speed">
+        <div class="speed-bar">1×</div>
+      </div>
+    </div>
+
+    <script>
+      const speed = document.querySelector('.speed'),
+            bar = document.querySelector('.speed-bar'),
+            video = document.querySelector('.flex');
+
+      const min = 0.4,
+            max = 4;
+
+      let isDown = false;
+
+      // Couldnt figure out how to pass 'this' from handleEVENT to calculatePlayback fn.
+      // Switched 'this' reference to speed.
+      function calculatePlayback(e) {
+        const y = e.pageY - speed.offsetTop,
+              percent = y / speed.offsetHeight,
+              height = Math.round(percent * 100) + '%',
+              playbackRate = percent * (max - min) + min;
+
+        bar.style.height = height;
+        bar.textContent = playbackRate.toFixed(2) + 'x';
+
+        video.playbackRate = playbackRate;
+      };
+
+      function handleMove(e) {
+        if(!isDown) return;
+        calculatePlayback(e);
+      }
+
+      function handleMouseDown(e) {
+        isDown = true;
+        calculatePlayback(e);
+      }
+
+      function handleMouseLeave() {
+        isDown = false;
+      }
+
+      function handleMouseUp() {
+        isDown = false;
+      }
+
+      speed.addEventListener('mousemove', handleMove);
+      speed.addEventListener('mousedown', handleMouseDown);
+      speed.addEventListener('mouseleave', handleMouseLeave);
+      speed.addEventListener('mouseup', handleMouseUp);
+
+      // // We use a function expression to make sure 'this' refers to div.speed
+      // speed.addEventListener('mousemove', function(e) {
+      //   const y = e.pageY - this.offsetTop,
+      //         percent = y / this.offsetHeight,
+      //         min = 0.4,
+      //         max = 4,
+      //         height = Math.round(percent * 100) + '%',
+      //         playbackRate = percent * (max - min) + min;
+      //
+      //   bar.style.height = height;
+      //   bar.textContent = playbackRate.toFixed(2) + 'x';
+      //
+      //   video.playbackRate = playbackRate
+      // });
+
+    </script>
+  </body>
+</html>
