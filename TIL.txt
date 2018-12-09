@@ -161,6 +161,11 @@ Day 28
 - Recap on older lessons.
 - Look into trying to pass 'this' through event listener to nested function. Could not figure it out.
 
+Day 29
+- setInterval stops sometimes when scrolling or when page is inactive for a while. Something to be weary of
+- You can select a named form and nested named input using document.FORM_NAME.INPUT_NAME
+- Remember, you can select element based on attribute with '[ATTR_NAME]' as selector
+
 IDEAS FOR MORE PRACTICE
 Go back to day 19 and combine it with day 20 to have a hands free way to take pics. Find way to apply filters with buttons and speech
 Throw in day 13 for debounce. Maybe work in day 22 and highlight what has been selected
